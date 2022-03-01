@@ -16,16 +16,16 @@
     width: 900px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 8px auto;
 }
 
 .header {
     background-color: #1f2937;
 }
 
-.header img {
-    height: 40px;
-    padding: 8px;
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
@@ -41,6 +41,27 @@ a {
     color: #e5e7eb;
 }
 
-.content .left {
-    
+.hero {
+    background-color: #1f2937;
+}
+
+.hero .left {
+    margin: 16px;
+}
+
+.hero img {
+    height: 280px;
+    margin: 16px;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
